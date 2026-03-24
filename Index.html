@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Muhammed Ayobami Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      touch-action: manipulation;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    .card {
+      background: lightblue;
+      padding: 30px 20px;
+      width: 100%;
+      max-width: 320px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+
+    img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto;
+      object-fit: cover;
+      border: 3px solid white;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 24px;
+      color: #1a1a1a;
+      margin: 20px 0 5px 0;
+    }
+
+    p.intro {
+      font-weight: 400;
+      color: #333;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .skills p {
+      background: #444;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 50px;
+      margin: 8px auto;
+      width: fit-content;
+      font-size: 13px;
+    }
+
+    h3 {
+      background: black;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 15px;
+      font-size: 15px;
+      margin-top: 20px;
+      display: inline-block;
+      width: 100%;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 25px;
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    #whatsapp-btn { background-color: #25D366; }
+    #linkedin-btn { background-color: #0077b5; }
+    #twitter-btn { background-color: #555; }
+
+    a { 
+      text-decoration: none; 
+      width: 100%;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="card">
+  <img src="https://i.ibb.co/jvJtCwYN/7-A8-EAA2-E-2-BBF-44-D6-9973-FC69-FB116134.jpg" alt="Muhammed Ayobami">
+
+  <h1>Muhammed Ayobami</h1>
+  <p class="intro">Learning web development using my phone 👨🏽‍💻</p>
+
+  <div class="skills">
+    <h3>My Skills:</h3>
+    <p>HTML (Beginner)</p>
+    <p>CSS (Beginner)</p>
+    <p>JavaScript Basics</p>
+  </div>
+
+  <h3>Connect with me:</h3>
+  <div class="social-links">
+    <a href="https://api.whatsapp.com/send?phone=2347010322446" target="_blank">
+      <button id="whatsapp-btn">WhatsApp</button>
+    </a>
+
+    <a href="https://www.linkedin.com/in/muhammed-ismail-01290a3b7" target="_blank">
+      <button id="linkedin-btn">LinkedIn</button>
+    </a>
+
+    <a href="https://x.com/ayobamiboii?s=21" target="_blank">
+      <button id="twitter-btn">Twitter</button>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
